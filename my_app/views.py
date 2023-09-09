@@ -8,8 +8,8 @@ def get_info(request):
     current_day = datetime.utcnow().strftime('%A')
     current_utc_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
-    github_repo_url = "https://github.com/username/repo"
+    github_file_url = "https://github.com/sommy-josh/HNG_STAGE_ONE/blob/main/my_app/views.py"
+    github_repo_url = "https://github.com/sommy-josh/HNG_STAGE_ONE"
 
     response_data = {
         "slack_name": slack_name,
